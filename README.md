@@ -3,8 +3,10 @@
 Service to automatically turn OFF/Sleep and ON/WakeUp a device at given times, using MQTT messages.
 
 This is a POC of a original implementation in Node-RED, now implemented as a coded Python service. 
-It is intended to turn OFF (Sleep) my server at night (I know, servers should be 24/7 UP, but mine do nothing at night), 
+It is intended to turn OFF (Sleep) my server at night (I know, servers should be 24/7 UP, but mine does nothing at night), 
 and turn it ON (Wake Up) again at day.
+
+Notice that the requirements are pretty simple and the implementation a bit too overkill. In this case, Node-RED might be a better choice... or as a middle-way, something Bash & Cron - powered.
 
 ## Features/Changelog
 
